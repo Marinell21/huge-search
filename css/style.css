@@ -81,11 +81,12 @@ textarea {
 	border: none;
 }
 /* main part */
-.ba-main {
+.ba-content {
 	font-size: 0;
 }
 .ba-column {
 	display: inline-block;
+	vertical-align: top;
 	width: 30%;
 	font-size: 14px;
 }
