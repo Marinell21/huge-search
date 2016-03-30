@@ -77,6 +77,7 @@ textarea {
 	width: 70px;
 	height: 70px;
 	background-image: url(../img/magnifier.svg);
+	background-size: cover;
 	background-color: transparent;
 	border: none;
 }
@@ -100,14 +101,14 @@ textarea {
 	font-size: 14px;
 	color: #c2c2c2;
 }
-.ba-column ul {
+.ba-list {
 	padding: 0;
 	list-style: none;
 }
-.ba-column li {
+.ba-list li {
 	margin: 5px 0;
 }
-.ba-column a {
+.ba-list a {
 	display: block;
 	padding: 10px 5px;
 	font-size: 0;
@@ -116,16 +117,16 @@ textarea {
 	background-color: rgba(118,117,128,0.05);
 	color: #c2c2c2;
 }
-.ba-column a:hover {
+.ba-list a:hover {
 	background-color: rgba(118,117,128,0.1);
 	color: #ec5a62;
 }
-.ba-column img {
+.ba-list img {
 	display: inline-block;
 	font-size: 14px;
 	vertical-align: middle;
 }
-.ba-column h3 {
+.ba-list h3 {
 	display: inline-block;
 	width: calc(100% - 65px);
 	margin: 0;
